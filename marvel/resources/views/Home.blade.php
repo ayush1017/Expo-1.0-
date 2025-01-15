@@ -172,6 +172,9 @@ body::before {
     function Astro(){
         window.open('/Astronauts');
     }
+    function Blog(){
+        window.open('/Blogs')
+    }
   //Mars()
   // https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY
 </script>
@@ -205,6 +208,10 @@ body::before {
         <div class="card" onclick="live()">
             <h2>Space Live</h2>
             <p>Catch the live stream of Space</p>
+        </div>
+        <div class="card" onclick="Blog()">
+            <h2>Space Blogs</h2>
+            <p>Write Your Space Facts and Enlighten Others</p>
         </div>
     </div>
     

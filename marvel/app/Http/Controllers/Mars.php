@@ -9,4 +9,3 @@ class Mars extends Controller{
        return view('/Mars');
     }
 }
-?>
